@@ -134,15 +134,15 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 
 /***/ }),
 
-/***/ "./lib/components/Index.js":
-/*!*********************************!*\
-  !*** ./lib/components/Index.js ***!
-  \*********************************/
+/***/ "./lib/renderers/dom.js":
+/*!******************************!*\
+  !*** ./lib/renderers/dom.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = __webpack_require__(/*! ./App */ \"./lib/components/App.js\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// class App extends React.Component {\n//   state = {\n//     answer: 42,\n//   }\n\n//   asyncFunc = () => {\n//     return Promise.resolve(37);\n//   }\n\n//   async componentDidMount() {\n//     this.setState({\n//       answer: await this.asyncFunc()\n//     });\n//   }\n\n//   render() {\n//     return (\n//       <h2>Hello Class Components -- {this.state.answer}</h2>\n//     );\n//   }\n// }\n\n// export default App;\n\n_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('root'));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvY29tcG9uZW50cy9JbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9saWIvY29tcG9uZW50cy9JbmRleC5qcz8wZTk0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBSZWFjdERvbSBmcm9tICdyZWFjdC1kb20nO1xyXG5cclxuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XHJcblxyXG4vLyBjbGFzcyBBcHAgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xyXG4vLyAgIHN0YXRlID0ge1xyXG4vLyAgICAgYW5zd2VyOiA0MixcclxuLy8gICB9XHJcblxyXG4vLyAgIGFzeW5jRnVuYyA9ICgpID0+IHtcclxuLy8gICAgIHJldHVybiBQcm9taXNlLnJlc29sdmUoMzcpO1xyXG4vLyAgIH1cclxuXHJcbi8vICAgYXN5bmMgY29tcG9uZW50RGlkTW91bnQoKSB7XHJcbi8vICAgICB0aGlzLnNldFN0YXRlKHtcclxuLy8gICAgICAgYW5zd2VyOiBhd2FpdCB0aGlzLmFzeW5jRnVuYygpXHJcbi8vICAgICB9KTtcclxuLy8gICB9XHJcblxyXG4vLyAgIHJlbmRlcigpIHtcclxuLy8gICAgIHJldHVybiAoXHJcbi8vICAgICAgIDxoMj5IZWxsbyBDbGFzcyBDb21wb25lbnRzIC0tIHt0aGlzLnN0YXRlLmFuc3dlcn08L2gyPlxyXG4vLyAgICAgKTtcclxuLy8gICB9XHJcbi8vIH1cclxuXHJcbi8vIGV4cG9ydCBkZWZhdWx0IEFwcDtcclxuXHJcblJlYWN0RG9tLnJlbmRlcihcclxuICA8QXBwIC8+LFxyXG4gIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290JylcclxuKTtcclxuIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUNBO0FBQ0E7Ozs7O0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./lib/components/Index.js\n");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _App = __webpack_require__(/*! components/App */ \"./lib/components/App.js\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('root'));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvcmVuZGVyZXJzL2RvbS5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9saWIvcmVuZGVyZXJzL2RvbS5qcz9mYmYzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBSZWFjdERvbSBmcm9tICdyZWFjdC1kb20nO1xyXG5cclxuaW1wb3J0IEFwcCBmcm9tICdjb21wb25lbnRzL0FwcCc7XHJcblxyXG5SZWFjdERvbS5yZW5kZXIoXHJcbiAgPEFwcCAvPixcclxuICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcpXHJcbik7XHJcbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBOzs7QUFBQTtBQUNBOzs7QUFDQTtBQUNBOzs7OztBQUNBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./lib/renderers/dom.js\n");
 
 /***/ }),
 
@@ -4099,14 +4099,14 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ }),
 
 /***/ 0:
-/*!******************************************************!*\
-  !*** multi babel-polyfill ./lib/components/Index.js ***!
-  \******************************************************/
+/*!***************************************************!*\
+  !*** multi babel-polyfill ./lib/renderers/dom.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! babel-polyfill */"./node_modules/babel-polyfill/lib/index.js");
-module.exports = __webpack_require__(/*! ./lib/components/Index.js */"./lib/components/Index.js");
+module.exports = __webpack_require__(/*! ./lib/renderers/dom.js */"./lib/renderers/dom.js");
 
 
 /***/ })
