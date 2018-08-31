@@ -63,3 +63,4 @@ typings/
 # generated bundles
 public/vendor.js
 public/app.js
+build/

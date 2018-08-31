@@ -3,10 +3,7 @@ const webpack = require('webpack');
 
 module.exports = {
   resolve: {
-    modules: [
-      path.resolve('./lib'),
-      path.resolve('./node_modules')
-    ]
+    modules: [path.resolve('./lib'), path.resolve('./node_modules')],
   },
   entry: {
     vendor: [
@@ -22,16 +19,23 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: '[name].js'
+    filename: '[name].js',
   },
   module: {
     rules: [
-      { test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' }
-    ]
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: { presets: ['react', 'env', 'stage-2'] },
+        },
+      },
+    ],
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      name: "vendor",
-    })
-  ]
+      name: 'vendor',
+    }),
+  ],
 };
