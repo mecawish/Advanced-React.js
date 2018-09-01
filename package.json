@@ -58,6 +58,7 @@
     "nodemon": "^1.18.3",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
+    "react-addons-perf": "^15.4.2",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.2",
     "webpack": "^4.16.3"
