@@ -33,9 +33,14 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-    }),
-  ],
+  // plugins: [
+  //   new webpack.optimize.CommonsChunkPlugin({
+  //     name: 'vendor',
+  //   }),
+  // ],
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
+  }
 };
